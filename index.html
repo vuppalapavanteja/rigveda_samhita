@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rigveda Samhita</title>
+  <title>Rigveda Digital Hub</title>
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +14,7 @@
       --primary-dark: #4a2c2a;
       --saffron: #f4a261;
       --border-gold: #d4af37;
+      --bg-cream: rgba(255, 252, 240, 0.96);
     }
 
     .telugu-text { font-family: 'Noto Sans Telugu', sans-serif; }
@@ -32,90 +33,132 @@
     }
 
     .main-wrapper {
-      background: rgba(255, 252, 240, 0.96);
-      border: 8px double var(--border-gold);
+      background: var(--bg-cream);
+      border: 8px double var(--border-gold); [cite: 2]
       border-radius: 4px;
-      max-width: 1000px;
+      max-width: 1000px; [cite: 2]
       width: 100%;
-      padding: 50px 30px;
-      box-shadow: 0 0 40px rgba(0,0,0,0.2);
+      padding: 50px 30px; [cite: 3]
+      box-shadow: 0 0 40px rgba(0,0,0,0.2); [cite: 3]
       text-align: center;
     }
 
     .image-header {
       display: flex;
       justify-content: center;
-      gap: 40px;
-      margin-bottom: 25px;
+      gap: 40px; [cite: 3]
+      margin-bottom: 25px; [cite: 4]
     }
 
     .image-header img {
-      width: 150px;
+      width: 150px; [cite: 4]
       height: 150px;
       object-fit: cover;
       border-radius: 50%;
-      border: 3px solid var(--border-gold);
-      padding: 5px;
+      border: 3px solid var(--border-gold); [cite: 4]
+      padding: 5px; [cite: 5]
       background: white;
     }
 
     h1 {
-      font-size: 42px;
-      margin: 0 0 30px 0;
+      font-size: 48px;
+      margin: 0 0 10px 0;
       font-weight: normal;
-      letter-spacing: 2px;
-      color: #5e3a37;
+      letter-spacing: 3px;
+      color: #5e3a37; [cite: 6]
     }
 
-    /* Clean Shloka Section - No Headers */
+    .hub-subtitle {
+      font-style: italic;
+      margin-bottom: 30px;
+      color: #8b5e34;
+      font-size: 1.1rem;
+    }
+
+    /* Shloka Section */
     .shloka-container {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 40px;
+      grid-template-columns: 1fr 1fr; [cite: 7]
+      gap: 40px; [cite: 8]
       margin-bottom: 45px;
       padding: 30px;
-      background: rgba(255, 255, 255, 0.4);
-      border-top: 1px solid rgba(212, 175, 55, 0.3);
-      border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+      background: rgba(255, 255, 255, 0.4); [cite: 8]
+      border-top: 1px solid rgba(212, 175, 55, 0.3); [cite: 8]
+      border-bottom: 1px solid rgba(212, 175, 55, 0.3); [cite: 9]
     }
 
     .shloka-content {
-      font-size: 1.25rem;
-      line-height: 2.2;
-      color: #2c1a19;
+      font-size: 1.15rem;
+      line-height: 2;
+      color: #2c1a19; [cite: 9]
     }
 
-    /* Language Buttons */
+    /* Category Layout */
+    .category-container {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+    }
+
+    .category-box {
+      width: 100%;
+      max-width: 600px;
+    }
+
+    .category-title {
+      font-size: 1.4rem;
+      color: #8b5e34;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 15px;
+      border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
     .lang-grid {
       display: flex;
       justify-content: center;
-      gap: 25px;
+      gap: 15px; [cite: 10]
+      flex-wrap: wrap;
     }
 
+    /* Reduced Button Size for Hub Scale */
     .lang-btn {
       text-decoration: none;
       color: var(--primary-dark);
-      background: #fff8e7;
-      padding: 15px 40px;
+      background: #fff8e7; [cite: 11]
+      padding: 10px 30px; [cite: 11]
       border: 1px solid var(--border-gold);
-      border-radius: 12px;
-      font-size: 1.5rem;
+      border-radius: 8px; [cite: 11]
+      font-size: 1.2rem; [cite: 12]
       font-weight: bold;
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+      transition: all 0.3s ease; [cite: 12]
+      box-shadow: 0 3px 5px rgba(0,0,0,0.05); [cite: 12]
+      min-width: 140px;
     }
 
     .lang-btn:hover {
-      background: var(--saffron);
-      color: white;
-      transform: translateY(-2px);
-      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+      background: var(--saffron); [cite: 12]
+      color: white; [cite: 13]
+      transform: translateY(-2px); [cite: 13]
+      box-shadow: 0 5px 10px rgba(0,0,0,0.15); [cite: 13]
+    }
+
+    hr.separator {
+      width: 60%;
+      border: 0;
+      border-top: 1px solid var(--border-gold);
+      margin: 10px auto;
+      opacity: 0.2; 
     }
 
     @media (max-width: 850px) {
-      .shloka-container { grid-template-columns: 1fr; gap: 20px; }
-      .image-header { gap: 15px; }
-      .image-header img { width: 110px; height: 110px; }
+      .shloka-container { grid-template-columns: 1fr; gap: 20px; } [cite: 14]
+      .image-header { gap: 15px; } [cite: 14]
+      .image-header img { width: 110px; height: 110px; } [cite: 15]
+      h1 { font-size: 32px; }
     }
   </style>
 </head>
@@ -127,7 +170,8 @@
       <img src="rigveda_purusha.jpg" alt="Rigveda Purusha">
     </div>
 
-    <h1>Rigveda Samhita</h1>
+    <h1>Rigveda</h1> 
+    <div class="hub-subtitle">The Digital Repository of Sacred Hymns</div>
 
     <div class="shloka-container">
       <div class="shloka-content telugu-text">
@@ -145,9 +189,23 @@
       </div>
     </div>
 
-    <div class="lang-grid">
-      <a href="rigveda_samhitha_telugu.html" class="lang-btn telugu-text">తెలుగు</a>
-      <a href="rigveda_samhitha_devanagiri.html" class="lang-btn devanagari-text">देवनागरी</a>
+    <div class="category-container">
+      <div class="category-box">
+        <div class="category-title">Samhita</div>
+        <div class="lang-grid">
+          <a href="rigveda_samhitha_telugu.html" class="lang-btn telugu-text">తెలుగు</a> [cite: 16]
+          <a href="rigveda_samhitha_devanagiri.html" class="lang-btn devanagari-text">देवनागरी</a> [cite: 16]
+        </div>
+      </div>
+
+      <hr class="separator">
+
+      <div class="category-box">
+        <div class="category-title">Sukta Sangraha</div>
+        <div class="lang-grid">
+          <a href="Rigveda_Sukta_Sangraha_Telugu.html" class="lang-btn telugu-text">తెలుగు</a> [cite: 16]
+        </div>
+      </div>
     </div>
   </div>
 
