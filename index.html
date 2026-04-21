@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rigveda Hub</title>
+  <title>Rigveda</title>
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,8 +14,9 @@
       --primary-dark: #4a2c2a;
       --saffron: #f4a261;
       --border-gold: #d4af37;
-      --soft-cream: #fff8e7;
-      --btn-highlight: #fdf2d5;
+      /* Highlight colors for buttons */
+      --telugu-bg: #ffe8d6; 
+      --devanagari-bg: #d8e2dc;
     }
 
     .telugu-text { font-family: 'Noto Sans Telugu', sans-serif; }
@@ -34,108 +35,101 @@
     }
 
     .main-wrapper {
-      background: rgba(255, 252, 240, 0.96); [cite: 2]
-      border: 8px double var(--border-gold); [cite: 2]
-      border-radius: 4px; [cite: 2]
-      max-width: 1000px; [cite: 2]
-      width: 100%; [cite: 2]
-      padding: 50px 30px; [cite: 3]
-      box-shadow: 0 0 40px rgba(0,0,0,0.2); [cite: 3]
-      text-align: center; [cite: 3]
+      background: rgba(255, 252, 240, 0.96);
+      border: 8px double var(--border-gold);
+      border-radius: 4px;
+      max-width: 1000px;
+      width: 100%;
+      padding: 50px 30px;
+      box-shadow: 0 0 40px rgba(0,0,0,0.2);
+      text-align: center;
     }
 
     .image-header {
-      display: flex; [cite: 3]
-      justify-content: center; [cite: 3]
-      gap: 40px; [cite: 3]
-      margin-bottom: 25px; [cite: 4]
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-bottom: 25px;
     }
 
     .image-header img {
-      width: 150px; [cite: 4]
-      height: 150px; [cite: 4]
-      object-fit: cover; [cite: 4]
-      border-radius: 50%; [cite: 4]
-      border: 3px solid var(--border-gold); [cite: 4]
-      padding: 5px; [cite: 5]
-      background: white; [cite: 5]
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid var(--border-gold);
+      padding: 5px;
+      background: white;
     }
 
     h1 {
-      font-size: 42px; [cite: 6]
-      margin: 0 0 30px 0; [cite: 6]
-      font-weight: normal; [cite: 6]
-      letter-spacing: 2px; [cite: 6]
-      color: #5e3a37; [cite: 6]
+      font-size: 42px;
+      margin: 0 0 30px 0;
+      font-weight: normal;
+      letter-spacing: 2px;
+      color: #5e3a37;
     }
 
     .shloka-container {
-      display: grid; [cite: 7]
-      grid-template-columns: 1fr 1fr; [cite: 7]
-      gap: 40px; [cite: 8]
-      margin-bottom: 45px; [cite: 8]
-      padding: 30px; [cite: 8]
-      background: rgba(255, 255, 255, 0.4); [cite: 8]
-      border-top: 1px solid rgba(212, 175, 55, 0.3); [cite: 8]
-      border-bottom: 1px solid rgba(212, 175, 55, 0.3); [cite: 9]
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      margin-bottom: 45px;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.4);
+      border-top: 1px solid rgba(212, 175, 55, 0.3);
+      border-bottom: 1px solid rgba(212, 175, 55, 0.3);
     }
 
     .shloka-content {
-      font-size: 1.25rem; [cite: 9]
-      line-height: 2.2; [cite: 9]
-      color: #2c1a19; [cite: 9]
+      font-size: 1.25rem;
+      line-height: 2.2;
+      color: #2c1a19;
     }
 
-    /* Updated Inline Layout for Categories */
-    .category-row {
+    /* Inline Category Layout */
+    .link-row {
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 20px;
       margin-bottom: 20px;
-      padding: 15px;
-      background: rgba(255, 255, 255, 0.2);
-      border-radius: 8px;
+      font-size: 1.4rem;
     }
 
-    .category-label {
-      font-size: 1.3rem;
+    .category-name {
       font-weight: bold;
-      color: #8b5e34;
-      min-width: 200px;
+      color: #5e3a37;
+      min-width: 180px;
       text-align: right;
     }
 
-    .lang-links {
-      display: flex;
-      gap: 15px;
+    .lang-btn {
+      text-decoration: none;
+      color: var(--primary-dark);
+      padding: 8px 25px;
+      border: 1px solid var(--border-gold);
+      border-radius: 8px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      transition: all 0.3s ease;
     }
 
-    .lang-btn {
-      text-decoration: none; [cite: 11]
-      color: var(--primary-dark); [cite: 11]
-      background: var(--btn-highlight); /* Distinct background for selection */
-      padding: 8px 25px; /* Smaller, streamlined size */
-      border: 1px solid var(--border-gold); [cite: 11]
-      border-radius: 8px; [cite: 11]
-      font-size: 1.1rem; [cite: 32]
-      font-weight: bold; [cite: 12]
-      transition: all 0.3s ease; [cite: 12]
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05); [cite: 12]
-    }
+    /* Specific background colors for buttons */
+    .btn-telugu { background-color: var(--telugu-bg); }
+    .btn-devanagari { background-color: var(--devanagari-bg); }
 
     .lang-btn:hover {
-      background: var(--saffron); [cite: 12]
-      color: white; [cite: 13]
-      transform: translateY(-2px); [cite: 13]
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1); [cite: 13]
+      background: var(--saffron);
+      color: white;
+      transform: translateY(-2px);
     }
 
     @media (max-width: 850px) {
-      .shloka-container { grid-template-columns: 1fr; gap: 20px; } [cite: 14]
-      .category-row { flex-direction: column; text-align: center; }
-      .category-label { text-align: center; min-width: auto; }
-      .image-header img { width: 110px; height: 110px; } [cite: 15]
+      .shloka-container { grid-template-columns: 1fr; gap: 20px; }
+      .link-row { flex-direction: column; gap: 10px; }
+      .category-name { text-align: center; min-width: auto; }
+      .image-header img { width: 110px; height: 110px; }
     }
   </style>
 </head>
@@ -147,7 +141,7 @@
       <img src="rigveda_purusha.jpg" alt="Rigveda Purusha">
     </div>
 
-    <h1>Rigveda</h1> [cite: 16, 20, 28]
+    <h1>Rigveda</h1>
 
     <div class="shloka-container">
       <div class="shloka-content telugu-text">
@@ -161,24 +155,21 @@
         साक्षान्मूलप्रमाणाय विष्णोरमिततेजसे ।<br>
         आद्याय सर्ववेदानां ऋग्वेदाय नमो नमः ॥<br>
         ऋग्वेदः श्वेतवर्णश्च द्विभुजो रासभाननः ।<br>
-        अक्षमालाम्बुपात्रं च बिभ्रत् स्वाध्ययने रतः ॥
+        अक्षमालाम्बुपात्रं च बिभ्रत् साध्ययने रतः ॥
       </div>
     </div>
 
-    <div class="category-row">
-      <div class="category-label">Samhita</div>
-      <div class="lang-links">
-        <a href="rigveda_samhitha_telugu.html" class="lang-btn telugu-text">తెలుగు</a>
-        <a href="rigveda_samhitha_devanagiri.html" class="lang-btn devanagari-text">देवनागरी</a>
-      </div>
+    <div class="link-row">
+      <span class="category-name">Samhita</span>
+      <a href="rigveda_samhitha_telugu.html" class="lang-btn btn-telugu telugu-text">తెలుగు</a>
+      <a href="rigveda_samhitha_devanagiri.html" class="lang-btn btn-devanagari devanagari-text">देवनागरी</a>
     </div>
 
-    <div class="category-row">
-      <div class="category-label">Sukta Sangraha</div>
-      <div class="lang-links">
-        <a href="Rigveda_Sukta_Sangraha_Telugu.html" class="lang-btn telugu-text">తెలుగు</a>
-        </div>
+    <div class="link-row">
+      <span class="category-name">Sukta Sangraha</span>
+      <a href="Rigveda_Sukta_Sangraha_Telugu.html" class="lang-btn btn-telugu telugu-text">తెలుగు</a>
     </div>
+
   </div>
 
 </body>
