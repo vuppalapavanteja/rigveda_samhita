@@ -1,4 +1,4 @@
-Rigveda Samhita (ఋగ్వేద సంహిత / ऋग्वेद संहिता)
+Rigveda (ఋగ్వేద / ऋग्वेद)
 
 A comprehensive digital reference for the Rigveda Samhita, providing a clean, printer-friendly interface for practitioners and scholars.
 
