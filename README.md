@@ -4,13 +4,19 @@ A comprehensive digital reference for the Rigveda Samhita, providing a clean, pr
 
 ⚠️ Important Caution / ముఖ్య గమనిక / महत्वपूर्ण चेतावनी
 
-English: This repository is NOT for self-study. The Vedas must be learned strictly through the Guru-Shishya Parampara. 
+English: 
+
+This repository is NOT for self-study. The Vedas must be learned strictly through the Guru-Shishya Parampara. 
 This digital text serves only as a reference or recap for those already learning under a traditional Guru.
 
-తెలుగు: ఈ వెబ్‌సైట్ కేవలం స్వయం అధ్యయనం కోసం ఉద్దేశించినది కాదు. 
+తెలుగు: 
+
+ఈ వెబ్‌సైట్ కేవలం స్వయం అధ్యయనం కోసం ఉద్దేశించినది కాదు. 
 వేదాలను ఖచ్చితంగా గురు-శిష్య పరంపర ద్వారా మాత్రమే నేర్చుకోవాలి. ఇది కేవలం ఒక మార్గదర్శి (Reference) మాత్రమే.
 
-हिंदी: यह वेबसाइट स्व-अध्ययन के लिए नहीं है। 
+हिंदी: 
+
+यह वेबसाइट स्व-अध्ययन के लिए नहीं है। 
 वेदों का अध्ययन अनिवार्य रूप से गुरु-शिष्य परंपरा के माध्यम से ही किया जाना चाहिए। यह केवल एक संदर्भ (Reference) ग्रंथ है।
 
 ✨ Features / విశేషాలు / विशेषताएं
