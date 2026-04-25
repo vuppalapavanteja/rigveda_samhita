@@ -1,6 +1,6 @@
 ## 📖 Rigveda Samhita
 
-| Style / Tradition | Telugu | Devanagari | Kannada | Tamil | Malayalam | bengali | gujarati | gurmukhi | oriya
+| Style / Tradition | Telugu | Devanagari | Kannada | Tamil | Malayalam | Bengali | Gujarati | Gurmukhi | Oriya
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Without Deergha Svaritham** | [View][1a] | [View][1b] | [View][1c] | — | — | — |
 | **Kanchi Style** | [View][2a] | [View][2b] | [View][2c] | [View][2d] | [View][2e] | [View][2f] |
@@ -8,8 +8,8 @@
 
 ## 📜 Supplemental Texts
 
-| Category | Devanagari | Telugu | Kannada | Tamil | Oriya | Malayalam |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| Category | Telugu | Devanagari | Kannada | Tamil | Malayalam | Bengali | Gujarati | Gurmukhi | Oriya
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Khila (Parishishtam)** | [View][4a] | [View][4b] | [View][4c] | [View][4d] | [View][4e] | [View][4f] |
 | **Suktani** | [View][5a] | [View][5b] | [View][5c] | [View][5d] | [View][5e] | [View][5f] |
 
