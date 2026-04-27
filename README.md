@@ -3,7 +3,7 @@
 | Style / Tradition | Telugu | Devanagari | Kannada | Tamil | Malayalam | Bengali | Gujarati | Gurmukhi | Oriya
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Without Deergha Svaritham** | [View][1a] | [View][1b] | [View][1c] | — | — | — |
-| **Kanchi Style** | [View][2a] | [View][2b] | [View][2c] | [View][2d] | [View][2e] | [View][2f] |
+| **Kanchi Style** | [View][2a] | [View][2b] | [View][2c] | [View][2d] | [View][2e] | [View][2f] | [View][2g] | [View][2h] | [View][2i] |
 | **Sringeri Style** | [View][3a] | [View][3b] | [View][3c] | [View][3d] | [View][3e] | [View][3f] |
 
 ## 📜 Supplemental Texts
@@ -25,12 +25,16 @@
 [1b]: https://vuppalapavanteja.github.io/rigveda/Samhitha-Without_Deergha-Svaritham/rigveda_samhitha_devanagari.html
 [1c]: https://vuppalapavanteja.github.io/rigveda/Samhitha-Without_Deergha-Svaritham/rigveda_samhitha_kannada.html
 
-[2a]: https://vuppalapavanteja.github.io/rigveda/content/02_samhitha_kanchi/rigveda_samhitha_kanchi_devanagiri.html
-[2b]: https://vuppalapavanteja.github.io/rigveda/content/02_samhitha_kanchi/rigveda_samhitha_kanchi_telugu.html
-[2c]: https://vuppalapavanteja.github.io/rigveda/content/02_samhitha_kanchi/rigveda_samhitha_kanchi_kannada.html
-[2d]: https://vuppalapavanteja.github.io/rigveda/content/02_samhitha_kanchi/rigveda_samhitha_kanchi_tamil.html
-[2e]: https://vuppalapavanteja.github.io/rigveda/content/02_samhitha_kanchi/rigveda_samhitha_kanchi_oriya.html
-[2f]: https://vuppalapavanteja.github.io/rigveda/content/02_samhitha_kanchi/rigveda_samhitha_kanchi_malayalam.html
+[2a]: https://vuppalapavanteja.github.io/rigveda/content/Samhitha-Kanchi-Style/Rigveda_Samhitha_Kanchi_Style_telugu.html
+[2b]: https://vuppalapavanteja.github.io/rigveda/content/Samhitha-Kanchi-Style/Rigveda_Samhitha_Kanchi_Style_devanagari.html
+[2c]: https://vuppalapavanteja.github.io/rigveda/content/Samhitha-Kanchi-Style/Rigveda_Samhitha_Kanchi_Style_kannada.html
+[2d]: https://vuppalapavanteja.github.io/rigveda/content/Samhitha-Kanchi-Style/Rigveda_Samhitha_Kanchi_Style_tamil.html
+[2e]: https://vuppalapavanteja.github.io/rigveda/content/Samhitha-Kanchi-Style/Rigveda_Samhitha_Kanchi_Style_malayalam.html
+[2f]: https://vuppalapavanteja.github.io/rigveda/content/Samhitha-Kanchi-Style/Rigveda_Samhitha_Kanchi_Style_bengali.html
+[2g]: https://vuppalapavanteja.github.io/rigveda/content/Samhitha-Kanchi-Style/Rigveda_Samhitha_Kanchi_Style_gujarati.html
+[2h]: https://vuppalapavanteja.github.io/rigveda/content/Samhitha-Kanchi-Style/Rigveda_Samhitha_Kanchi_Style_gurmukhi.html
+[2i]: https://vuppalapavanteja.github.io/rigveda/content/Samhitha-Kanchi-Style/Rigveda_Samhitha_Kanchi_Style_oriya.html
+
 
 [3a]: https://vuppalapavanteja.github.io/rigveda/content/03_samhitha_sringeri/rigveda_samhitha_sringeri_devanagiri.html
 [3b]: https://vuppalapavanteja.github.io/rigveda/content/03_samhitha_sringeri/rigveda_samhitha_sringeri_telugu.html
